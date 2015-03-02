@@ -1,0 +1,50 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node name="/DMObject/">
+  <interface name="net.dumm.download">
+    <property name="Lifetime" type="i" access="read">
+    </property>
+    <property name="CreationTime" type="i" access="read">
+    </property>
+    <property name="DownloadTime" type="i" access="read">
+    </property>
+    <property name="EstimateTime" type="i" access="read">
+    </property>
+    <property name="KeepOverLifecycle" type="b" access="read">
+    </property>
+    <property name="AutoResume" type="b" access="read">
+    </property>
+    <property name="Visibility" type="s" access="read">
+    </property>
+    <property name="DownloadState" type="s" access="read">
+    </property>
+    <property name="TotalSize" type="i" access="read">
+    </property>
+    <property name="Size" type="i" access="read">
+    </property>
+    <property name="DownloadDescription" type="s" access="readwrite">
+    </property>
+    <property name="AbortAllowed" type="b" access="read">
+    </property>
+    <property name="PauseAllowed" type="b" access="read">
+    </property>
+    <property name="Url" type="s" access="read">
+    </property>
+    <property name="StoragePath" type="s" access="read">
+    </property>
+    <property name="Filename" type="s" access="read">
+    </property>
+    <property name="LastHTTPResponseCode" type="i" access="read">
+    </property>
+    <property name="HTTPHeaders" type="as" access="readwrite">
+    </property>
+    <property name="ProxyUrl" type="s" access="readwrite">
+    </property>
+    <property name="ProxyPort" type="i" access="readwrite">
+    </property>
+    <property name="ProxyUser" type="s" access="readwrite">
+    </property>
+    <property name="ProxyPasswd" type="s" access="readwrite">
+    </property>
+  </interface>
+</node>

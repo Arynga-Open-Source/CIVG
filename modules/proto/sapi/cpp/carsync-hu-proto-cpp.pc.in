@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+includedir=@includedir@
+libdir=@libdir@
+
+Name: carsync-hu-proto-cpp
+Description: CarSync South API C++ Library
+Version: 1.0.0
+Requires: carsync-hu-common protobuf
+Libs: -L${libdir} -lcarsync-hu-proto-cpp

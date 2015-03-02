@@ -1,0 +1,67 @@
+import "common.proto";
+
+package CarSync.Proto.ReleasePackage;
+
+/**
+ * @brief Update File metadata, contains basic info about package the
+ * UF corresponds to
+ */
+message UpdateFileMeta
+{
+    optional CarSync.Proto.Common.Version version = 1; // package version
+    optional string uuid = 2;   // package UUID
+    optional string url = 3;    // URL to package location. This may
+                                // point to remote location or a file
+                                // in local filesystem. In case of
+                                // local fs, the URL will follow file
+                                // URI scheme
+
+    optional string type = 4;     // package type is a string, well
+                                  // known values: rpm, raw; other
+                                  // backends may be added later
+    optional string checksum = 5; // SHA1
+    optional bool reboot = 6;     // reboot flag
+    optional bool encrypted = 7;  // flag indicating that package is
+                                  // encrypted
+}
+
+/**
+ * @brief information about a single update from UpdateDescriptor
+ */
+message UpdateFileItem
+{
+    optional string uuid = 1;                          // UUID of updated package
+
+    optional CarSync.Proto.Common.Version version = 2; // new version of the pacakge
+
+    optional string url = 3;                           // url to grab UF metadata from
+}
+
+/**
+ * @brief An update descriptor, identifes an update form particular of
+ * RP from one version to another. Contains a list of UFs that need to
+ * be updated
+ */
+message UpdateDescriptor
+{
+    optional string uuid = 1;                               // RP UUID that the udpate is for
+
+    optional CarSync.Proto.Common.Version from_version = 2; // previous version of RP
+
+    optional CarSync.Proto.Common.Version to_version = 3;   // new version of RP
+
+    repeated UpdateFileItem updates = 4;                   // list of package updates
+                                                           // (UFs) that need to be
+                                                           // applied during this
+                                                           // upgrade
+}
+
+/**
+ * @brief A descriptor of a single RP
+ */
+message ReleasePackageMeta
+{
+    optional CarSync.Proto.Common.Version version = 1; // version
+    optional string uuid = 2;                          // UUID
+}
+

@@ -1,0 +1,2656 @@
+Wed Apr 10 13:02:35 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-L62wmrSUNiSVy1ZGAwBhOg'])>]
+Wed Apr 10 13:02:45 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 2,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=2', 'content_type=text/plain', 'reply_to=amq.gen-L62wmrSUNiSVy1ZGAwBhOg'])>]
+Wed Apr 10 13:02:55 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 3,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=3', 'content_type=text/plain', 'reply_to=amq.gen-L62wmrSUNiSVy1ZGAwBhOg'])>]
+Wed Apr 10 13:03:28 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-qtg7MtH4b3sG5RE2SakVJw'])>]
+Wed Apr 10 13:03:38 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 2,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=2', 'content_type=text/plain', 'reply_to=amq.gen-qtg7MtH4b3sG5RE2SakVJw'])>]
+Wed Apr 10 13:03:48 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 3,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=3', 'content_type=text/plain', 'reply_to=amq.gen-qtg7MtH4b3sG5RE2SakVJw'])>]
+Wed Apr 10 13:04:39 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-LeJgb3D-u62KsM9kJq8Kaw'])>]
+Wed Apr 10 13:55:46 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-MEI5-RixfqYCLj0R5NuqKQ'])>]
+Wed Apr 10 13:59:05 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-P43EXIk5HrQh58XzOg9tpQ'])>]
+Wed Apr 10 14:00:38 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-GCA0GXAAujNWaIUyu2dWQg'])>]
+Wed Apr 10 14:01:41 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-p5Ou0MaoH-lBin2QD7N-CA'])>]
+Wed Apr 10 14:02:06 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-drZgLUq-2mm2yEG-1hEdvA'])>]
+Wed Apr 10 14:04:08 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-_uGWUSba4FcTFXG1nLvD8g'])>]
+Wed Apr 10 14:06:49 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-gAk8j7Q1ZwZnHu9qLEDAMg'])>]
+Wed Apr 10 14:06:59 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 2,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=2', 'content_type=text/plain', 'reply_to=amq.gen-gAk8j7Q1ZwZnHu9qLEDAMg'])>]
+Wed Apr 10 14:13:55 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:14:05 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 2,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=2', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:14:15 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 3,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=3', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:14:25 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 4,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=4', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:14:35 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 5,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=5', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:14:45 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 6,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=6', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:14:55 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 7,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=7', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:15:05 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 8,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=8', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:15:15 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 9,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=9', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:15:25 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 10,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=10', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:15:35 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 11,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=11', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:15:44 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 12,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=12', 'content_type=text/plain', 'reply_to=amq.gen-pX_No82MShLnKmwCspJZQg'])>]
+Wed Apr 10 14:53:01 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "1.2.1",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "1.2.3",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000001",
+			"JSON_ID" : 7,
+			"JSON_PARENT_ID" : 4
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000002",
+			"JSON_ID" : 8,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000003",
+			"JSON_ID" : 9,
+			"JSON_PARENT_ID" : 5
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000004",
+			"JSON_ID" : 10,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000005",
+			"JSON_ID" : 11,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000006",
+			"JSON_ID" : 12,
+			"JSON_PARENT_ID" : 6
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0004-000000000007",
+			"JSON_ID" : 13,
+			"JSON_PARENT_ID" : 6
+		}
+	]
+} [<BasicProperties(['delivery_mode=2', 'correlation_id=1', 'content_type=text/plain', 'reply_to=amq.gen-OxoKVRDyBkSDxF5MUSHdJg'])>]
+Wed Apr 10 15:02:39 2013 > {
+	"ApiVersion" : "0.1.0",
+	"MsgType" : "MSG_REQ",
+	"Vin" : "A1C3E5G6FFF123456",
+	"MsgPartial" : 0,
+	"ReqType" : "ReportConfig",
+	"MsgSessionId" : 1,
+	"MsgSeqNo" : 0,
+	"Vehicle" : {
+		"Version" : "0.0.0",
+		"ID" : "4c6d84a0-2285-4653-0001-000000000001",
+		"JSON_ID" : 1,
+		"JSON_PARENT_ID" : 0
+	},
+	"Subdomains" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000001",
+			"JSON_ID" : 2,
+			"JSON_PARENT_ID" : 1
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0002-000000000002",
+			"JSON_ID" : 3,
+			"JSON_PARENT_ID" : 1
+		}
+	],
+	"ECUs" : [
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000001",
+			"JSON_ID" : 4,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000002",
+			"JSON_ID" : 5,
+			"JSON_PARENT_ID" : 2
+		},
+		{
+			"Version" : "0.0.0",
+			"ID" : "4c6d84a0-2285-4653-0003-000000000003",
+			"JSON_ID" : 6,
+			"JSON_PARENT_ID" : 3
+		}
+	],
+	"EIs" : [
+		{
+			"Version" : "0.0.0",
+			"I

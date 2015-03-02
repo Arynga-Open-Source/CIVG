@@ -1,0 +1,14 @@
+Source: libcarsync-south-proto
+Section: unknown
+Priority: extra
+Maintainer: Bartlomiej Jozwiak <bartlomiej.jozwiak@open-rnd.pl>
+Build-Depends: debhelper (>= 8.0.0), pkg-config,
+    libprotobuf-dev, libprotobuf-c0
+Standards-Version: 3.9.3
+Homepage: http://arynga.com
+
+Package: libcarsync-south-proto0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CarSync South Protocol
+ CarSync South Protocol library

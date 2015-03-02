@@ -1,0 +1,16 @@
+###########################################################################
+# Copyright 2013 Open-RnD Sp. zo.o.
+#
+# __OPEN-RND_COPYRIGHTS_HERE__
+#
+#
+# AUTHOR      : Bartlomiej Jozwiak (bj@open-rnd.pl)
+# DATE        : 22-03-2013
+# BRIEF       : Automake includes
+# DESCRIPTION :
+#              Put here all includes that you would like to add to project
+#
+###########################################################################
+
+AM_CPPFLAGS += -I$(AM_TOP_SRC)/include
+AM_CPPFLAGS += -I$(AM_TOP_SRC)/gdbus

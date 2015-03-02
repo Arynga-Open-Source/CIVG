@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+./civg_general_tests
+./civg_core_tests
+./civg_threaded_tests

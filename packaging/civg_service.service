@@ -1,0 +1,14 @@
+[Unit]
+Description=CarSync In Vehicle Gateway service
+Requires=rvi.service
+Requires=genivi-dumm.service
+After=rvi.service
+After=genivi-dumm.service
+
+[Service]
+ExecStart=/bin/civg_service -d -a
+RestartSec=10
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

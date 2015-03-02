@@ -1,0 +1,20 @@
+--- qml/ividemo/HomeScreen.qml	2014-05-31 09:17:56.588780593 +0200
++++ qml/ividemo/HomeScreen.qml	2014-05-31 09:19:09.436778463 +0200
+@@ -23,7 +23,7 @@
+             anchors.leftMargin: 0
+             width: 214
+             height: parent.height
+-            /*Image {
++            Image {
+                 id: bg1
+                 x: 0
+                 y: 0
+@@ -66,7 +66,7 @@
+                     // For HV demo, we want to show about screen
+                     rootScreenID.activeScreenID = cSCREEN_ID_ABOUT
+                 }
+-            }*/
++            }
+         }
+ 
+ 

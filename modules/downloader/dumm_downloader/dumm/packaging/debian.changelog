@@ -1,0 +1,11 @@
+dumm (0.0.2-1) unstable; urgency=low
+
+  * Added several cosmetic changes
+
+ -- Bartlomiej Jozwiak <bj@open-rnd.pl>  Mon, 30 Sept 2013 12:35:12 +0200
+
+dumm (0.0.1-1) unstable; urgency=low
+
+  * Initial packaging
+
+ -- Maciej Borzecki <maciej.borzecki@open-rnd.pl>  Fri, 24 May 2013 12:35:12 +0200

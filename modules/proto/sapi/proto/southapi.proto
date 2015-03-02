@@ -1,0 +1,271 @@
+import "common.proto";
+import "releasepackage.proto";
+
+package CarSync.Proto.Messages;
+
+/**
+ * @brief Base message encapsulating all other messages. Base message
+ * is unencrypted, but it is payload may be. Note, the encapsulated
+ * message is serialized to byte sequence and assigned to data field.
+ */
+message BaseMessage
+{
+    /**
+     * @brief encryption setting for payload
+     */
+    message Encryption
+    {
+        enum EncryptionType
+        {
+            ENC_NONE = 0;
+            ENC_AES = 1;
+        }
+        required EncryptionType type = 1 [default = ENC_NONE];
+        repeated bytes key = 2;
+        repeated bytes IV = 3;
+    }
+
+    /**
+     * @brief signature setting for payload
+     */
+    message Signature
+    {
+        enum SignatureType
+        {
+            SIG_NONE = 0;
+            SIG_ECDSA = 1;
+        }
+        required SignatureType type = 1 [default = SIG_NONE];
+        repeated bytes signature = 2;
+    }
+
+    enum MessageType
+    {
+        MESSAGE_NOTIFICATION = 0;
+        MESSAGE_RPC = 1;
+        MESSAGE_REPORT = 2;
+    }
+
+    optional string VIN = 1;                           // vehicle VIN
+    optional CarSync.Proto.Common.Version version = 2; // protocol version
+    optional string timestamp = 3;                     // timestamp when message was generated
+    optional Encryption encryption_data = 4;           // payload encryption info
+    optional Signature sig_data = 5;                   // payload signature info
+    optional bytes data = 6;                           // serialized (and possibly encrypted) message payload
+    optional string signature = 7;                     // signature data
+    optional MessageType data_type = 8;                // type of serialized message
+}
+
+/**
+ * @brief Report message
+ */
+message Report
+{
+
+    /**
+     * @brief Type of record
+     */
+    enum ReportType 
+    {
+        REPORT_STATUS = 0;
+        REPORT_UPDATE = 1;
+        REPORT_ERROR = 2;
+    }
+    optional ReportType type = 1;
+    optional string description = 2;
+    optional string VIN = 3;
+    optional string timestamp = 4; // Date and time in RFC 3339 format
+
+    /*
+     * @brief Information about release package which was updated.
+     */
+    message UpdateInfo
+    {
+        enum UpdateStatus 
+        {
+            UPDATE_PENDING = 0;
+            UPDATE_SUCCESS = 1;
+            UPDATE_FAILURE = 2;
+        }
+        optional string uuid = 1;
+        optional CarSync.Proto.Common.Version from_version = 2;
+        optional CarSync.Proto.Common.Version to_version = 3;
+        optional UpdateStatus status = 4;
+    }
+    optional UpdateInfo update_info = 5;
+
+    /**
+     * @brief GPS Location message
+     */
+    message Location
+    {
+        optional double latitude = 1;
+        optional double longitude = 2;
+    }
+    optional Location location = 6;
+
+    /**
+     * @brief Car diagnostic message
+     */
+    message Diagnostic
+    {
+        message Speed 
+        {
+            /**
+             * @brief Speed unit
+             */
+            enum SpeedUnit
+            {
+                SPEED_MPH = 0;
+                SPEED_KPH = 1;
+            }
+
+            optional uint32 value = 1;
+            optional SpeedUnit unit = 2;
+        }
+        optional Speed speed = 1;
+
+        /**
+         * @brief Engine message. Describes engine condition.
+         */
+        message Engine
+        {
+            /**
+             * @brief Engine temperature message.
+             */
+            message Temperature 
+            {
+                optional uint32 value = 1;
+
+                /**
+                 * @brief Temperature unit.
+                 */
+                enum TempUnit
+                {
+                    TEMP_FAHRENHEIT = 0;
+                    TEMP_CELSIUS = 1;
+                }
+                optional TempUnit unit = 2;
+            }
+            optional Temperature temp = 1;
+            optional bool error = 2;
+            optional uint32 rpm = 3;
+        }
+        optional Engine engine = 2;
+
+        /**
+         * @brief Car fuel message.
+         */
+        message Fuel
+        {
+            optional uint32 level = 1;
+
+            /**
+             * @brief Car fule type.
+             */
+            enum FuelType
+            {
+                FUEL_GAS = 0;
+                FUEL_OIL = 1;
+            }
+            optional FuelType type = 2;
+        }
+        optional Fuel fuel = 3;
+
+        /**
+         * @brief Car EGR message
+         */
+        message Egr
+        {
+            optional bool error = 1;
+        }
+        optional Egr egr = 4;
+    }
+    optional Diagnostic diagnostic = 7;
+}
+
+/**
+ * @brief RPC message wrapper, only one of encapsulated structures is
+ * filled
+ */
+message RPC
+{
+    optional RPCConfigurationReq conf_req = 1; // configuration request (veh -> srv)
+    optional RPCConfigurationRsp conf_rsp = 2; // configuration response (srv -> veh)
+    optional RPCError error = 3;               // RPC error (both ways)
+    optional string rpc_id = 4;                // RPC transaction id
+}
+
+/**
+ * @brief configuration request
+ *
+ * Includes basic information about the current system state of
+ * vehicle
+ */
+message RPCConfigurationReq
+{
+    repeated CarSync.Proto.ReleasePackage.ReleasePackageMeta rps = 1; // list of RPs in the system
+}
+
+/**
+ * @brief configuration response
+ *
+ * Configuration response message conveys the list of assigned RPs
+ * (with their most current version) and (optionally) informationa
+ * about the update to be performed by the vehicle. List of update
+ * packages is provided in update descriptor.
+ */
+message RPCConfigurationRsp
+{
+    repeated CarSync.Proto.ReleasePackage.ReleasePackageMeta rps = 1; // list of RPs assigned to vehicle
+
+    repeated string vehicle_states = 2; // list of states in which an update may be applied
+
+    optional CarSync.Proto.ReleasePackage.UpdateDescriptor update = 3; // update descriptor, may be present
+}
+
+/**
+ * @brief Request for authorization token (veh -> srv)
+ */
+message RPCGetAuthTokenReq
+{
+    optional string reason = 1; // reason for request
+    // maybe include information
+    // about resource location
+}
+
+/**
+ * @brief Response that may contain authorization token
+ */
+message RPCGetAuthTokenRsp
+{
+    optional string auth_token = 1;
+    optional int32 ttl = 2;
+}
+
+/**
+ * @brief generic error in processing of RPC request
+ */
+message RPCError
+{
+    optional string reason = 1 [default = ""]; // textual description of error
+    optional string code = 2;                  // error code
+}
+
+/**
+ * @brief Notification message (srv -> vehicles)
+ */
+message Notification
+{
+    /**
+     * @brief type of notification
+     */
+    enum NotificationType
+    {
+        CONF_REPORT = 0;        // server requests configuration
+                                // requests from the vehicles
+        VERSION_UPDATE = 1;     // server notifies vehicles that new
+                                // version is available
+    }
+    optional NotificationType type = 1; // type of notification
+}

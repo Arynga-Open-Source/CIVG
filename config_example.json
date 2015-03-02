@@ -1,0 +1,12 @@
+{
+    "VIN": "SAJWA6GL7EMK00949",
+    "rvi_node": "http://localhost:8811",
+    
+    "installedConfig" :
+    [
+        {
+            "uuid": "3d409d5b-3efc-40ae-a746-84662e7ca1ad",
+            "version": {"major": 1, "minor": 0, "build": 0}
+        }
+    ]
+}

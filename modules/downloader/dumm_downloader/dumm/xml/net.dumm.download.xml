@@ -1,0 +1,30 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node name="/">
+  <interface name="net.dumm.download">
+    <method name="Init">
+      <arg name="url" type="s" direction="in"/>
+      <arg name="storage_path" type="s" direction="in"/>
+      <arg name="filename" type="s" direction="in"/>
+      <arg name="lifetime" type="i" direction="in"/>
+      <arg name="keep_over_lifecycle" type="b" direction="in"/>
+      <arg name="autoresume" type="b" direction="in"/>
+      <arg name="visibility" type="s" direction="in"/>
+      <arg name="id" type="u" direction="out"/>
+    </method>
+    <method name="Start">
+      <arg name="id" type="u" direction="in"/>
+    </method>
+    <method name="Abort">
+      <arg name="id" type="u" direction="in"/>
+    </method>
+    <method name="Pause">
+      <arg name="id" type="u" direction="in"/>
+    </method>
+    <method name="Resume">
+      <arg name="id" type="u" direction="in"/>
+      </method><method name="Finalize">
+      <arg name="id" type="u" direction="in"/>
+    </method>
+  </interface>
+</node>

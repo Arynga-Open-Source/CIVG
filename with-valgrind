@@ -1,0 +1,19 @@
+#!/bin/bash -e
+
+set -x
+
+self_dir=$(dirname $0)
+dump_file=vgdump.$$
+supp_file=$self_dir/valgrind.supp
+
+echo "-- writing dump to $dump_file"
+
+valgrind --tool=memcheck \
+    --demangle=no \
+    --leak-check=full \
+    --leak-resolution=high \
+    --num-callers=20 \
+    --log-file=$dump_file \
+    --suppressions=$supp_file \
+    --track-origins=yes \
+    $*

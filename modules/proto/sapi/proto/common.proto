@@ -1,0 +1,12 @@
+package CarSync.Proto.Common;
+
+/**
+ * @brief Generic version information container
+ */
+message Version
+{
+    optional int32 major_version = 1;
+    optional int32 minor_version = 2;
+    optional int32 build_version = 3;
+}
+

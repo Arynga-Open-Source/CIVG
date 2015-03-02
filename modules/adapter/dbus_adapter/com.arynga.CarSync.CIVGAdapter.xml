@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<node name="/">
+<interface name="com.arynga.CarSync.CIVGAdapter">
+
+    <signal name="status_changed">
+    </signal>
+
+    <method name="get_status">
+        <arg type="i" name="state" direction="out"/>
+        <arg type="i" name="status" direction="out"/>
+    </method>
+
+    <method name="get_vin">
+        <arg type="s" name="vin" direction="out"/>
+    </method>
+
+    <method name="get_installed_config">
+        <arg type="a(ss)" name="installed_config" direction="out"/>
+    </method>
+
+    <method name="get_available_update">
+        <arg type="s" name="uuid" direction="out"/>
+        <arg type="s" name="version" direction="out"/>
+    </method>
+
+    <method name="perform_upgrade">
+    </method>
+</interface>
+</node>

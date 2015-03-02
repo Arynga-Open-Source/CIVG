@@ -1,0 +1,4 @@
+#!/bin/bash
+COMMITS_COUNT=`git rev-list HEAD | wc -l | sed -e 's/ *//g' | xargs -n1 printf %d`
+echo "#define BUILD_VERSION \"$COMMITS_COUNT\"" > build_version.h
+echo CIVG_BUILD_VERSION: $COMMITS_COUNT

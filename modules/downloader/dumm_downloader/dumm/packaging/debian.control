@@ -1,0 +1,14 @@
+Source: dumm
+Section: unknown
+Priority: extra
+Maintainer: Bartlomiej Jozwiak <bj@open-rnd.pl>
+Build-Depends: debhelper (>= 8.0.0), pkg-config, libglib2.0-dev (>= 2.28.0),
+ libcurl4-openssl-dev, libdbus-1-dev, libdbus-glib-1-dev, libsqlite3-dev
+Standards-Version: 3.9.3
+Homepage: http://open-rnd.pl
+
+Package: dumm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Genivi DUMM
+ Genivi DUMM

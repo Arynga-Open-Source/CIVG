@@ -1,0 +1,10 @@
+This is a simple demo that illustrates integration DUMM with HTML5 application.
+
+
+-= Setup =-
+To correctly configure your system please do:
+* copy etc folder to /etc
+** eventually you will have to merge changes  in case if you have some another cloudeebus project in your system
+
+
+-= Run =-

@@ -1,0 +1,37 @@
+* Usage
+** client
+   See `client.py --help` for usage information. Script client.py
+   implements a simple RPC client that issues a request and waits for
+   response. The script loads another python script that should
+   implement functions *gen_request* and *parse_resp*. The purpose of
+   these methods is as follows:
+   - *gen_request(args)* - generate a message to be sent to given queue, can
+     be any message, test, binary data whatever
+   - *parse_resp* - parse a response and do whatever is needed
+   Additional module level symbols that are used:
+   - *QUEUE_NAME* (required) - name of the queue the request is sent to
+   - *WAIT_FOR_RESPONSE* (optional, defaults to True) - flag
+     indicating if client should wait for response from the server
+*** Test scripts
+    - config_report.py - test configuration request/response
+    - genupdatefile.py - generate update file for package
+
+
+** server
+   Test servers:
+   - server-report.py - server that subscribes to reports and prints
+     out a report each time one is received, user script has to
+     implement the following call:
+     - *handle_request(data, args)* - handle incoming request
+       message, returns nothing/ignored
+   - server-notify.py - server that generates notifications and
+     pushes them into *NOTIFICATION* exchange; user supplied script has
+     to be provided that implements the following calls:
+     - *gen_notification(args)* - generate Notification message
+   - server-rpc.py - simple *RPC* server implementation, lots of
+     hardcoded stuff, user supplied script has to implement the
+     following method:
+     - *handle_request(data, args)* - handle incoming message,
+       returns a response message
+   For all servers detailed usage information can be obtained calling
+   `server-<type>.py --help`.
