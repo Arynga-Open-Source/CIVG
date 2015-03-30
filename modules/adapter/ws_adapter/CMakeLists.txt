@@ -1,7 +1,5 @@
 # Arynga CarSync(TM)
-# 2014 Copyrights by Arynga Inc. All rights reserved.
-# Unauthorized copying of this file, via any medium is strictly prohibited.
-# Proprietary and confidential.
+# 2014-2015 Copyrights by Arynga Inc. All rights reserved.
 
 project(ws_adapter)
 cmake_minimum_required(VERSION 2.8)
